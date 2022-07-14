@@ -25,7 +25,7 @@ if verify_key(request.data, signature, timestamp, 'my_client_public_key'):
 else:
     print('Signature is invalid')
 ```
-
+      
 Use `verify_key_decorator` to protect routes in a Flask app:
 
 ```py
