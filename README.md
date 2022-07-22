@@ -16,7 +16,7 @@ pip install discord-interactions
 # Usage
 
 Use the `InteractionType` and `InteractionResponseType` enums to process and respond to webhooks.
-
+ 
 Use `verify_key` to check a request signature:
  
 ```py
