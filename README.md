@@ -18,7 +18,7 @@ pip install discord-interactions
 Use the `InteractionType` and `InteractionResponseType` enums to process and respond to webhooks.
 
 Use `verify_key` to check a request signature:
-
+ 
 ```py
 if verify_key(request.data, signature, timestamp, 'my_client_public_key'):
     print('Signature is valid')
